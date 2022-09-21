@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "889272829466",
+    "project_id": "groupnine-e51bc",
+    "storage_bucket": "groupnine-e51bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889272829466:android:514225f6a4715e005273a3",
+        "android_client_info": {
+          "package_name": "com.example.groupnine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889272829466-sd3kmighfbjkrdq8qq3i9hngbmofn7b1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaBmA0he-YSWAFqGmg4KjBRxmh6RIj4jM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889272829466-sd3kmighfbjkrdq8qq3i9hngbmofn7b1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/homeNav"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/camNav"
+            android:title="Camera"
+            android:icon="@drawable/ic_baseline_photo_camera_24"/>
+        <item
+            android:id="@+id/qrNav"
+            android:title="QR Scan"
+            android:icon="@drawable/ic_baseline_qr_code_scanner_24"/>
+        <item
+            android:id="@+id/tempNav"
+            android:title="Temperature"
+            android:icon="@drawable/ic_baseline_local_hospital_24"/>
+        <item
+            android:id="@+id/in4Nav"
+            android:title="Information"
+            android:icon="@drawable/ic_baseline_person_24"/>
+    </group>
+</menu>

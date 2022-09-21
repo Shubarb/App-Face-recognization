@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".In4Fragment"
+    android:background="#1B1619">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Information" />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="date|textUri|textShortMessage|textLongMessage|number|textPersonName|text|textCapWords|time"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Position"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="date|textUri|textShortMessage|textLongMessage|number|textPersonName|text|textCapWords|time"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="date|textUri|textShortMessage|textLongMessage|number|textPersonName|text|textCapWords|time"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="Id"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="date|textUri|textShortMessage|textLongMessage|number|textPersonName|text|textCapWords|time"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add data" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information data"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="300dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyc"
+        android:layout_width="194dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyc2"
+        android:layout_width="194dp"
+        android:layout_height="194dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/white" />
+</FrameLayout>
